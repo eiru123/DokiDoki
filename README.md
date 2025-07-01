@@ -1,87 +1,20 @@
-# Welcome to React Router!
+(Maker Club Challenge 2기 프로젝트 - 3주차 초반에 변경하게 됐습니다.)
+# DokiDoki / 찐덕노트
+- 평소 좋아하는 덕질 굿즈와의 추억을 담을 수 있는 웹앱
+- 부동산의 압박 혹은 잃어버린 굿즈들의 추억을 만들 수 있는 웹앱
+- 가상의 공간에 굿즈와의 추억을 기록하세요!
 
-A modern, production-ready template for building full-stack React applications using React Router.
+## 기능
+- 나만의 덕질 방 꾸미기
+  - 덕질을 위한 나만의 공간 만들기 (AI를 통한 테마 생성 혹은 제공되는 테마 사용)
+  - 굿즈 사진 올리기 및 굿즈와의 추억 적기!
+  - 굿즈와의 d-day 캘린더
+  - 특정 캐릭터와 쌓은 추억 Count
+- 추억 하이라이트 만들어주기
+  - 특정 굿즈 시리즈와의 추억을 하이라이트 쇼츠로 만들어 제공
+- 친구 덕질 방 탐험
+  - 추가된 친구의 방을 구경가고 방명록도 남길 수 있는 시스템.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
-
-## Features
-
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
-
-## Getting Started
-
-### Installation
-
-Install the dependencies:
-
-```bash
-npm install
-```
-
-### Development
-
-Start the development server with HMR:
-
-```bash
-npm run dev
-```
-
-Your application will be available at `http://localhost:5173`.
-
-## Building for Production
-
-Create a production build:
-
-```bash
-npm run build
-```
-
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
----
-
-Built with ❤️ using React Router.
+## 확장 가능한 기능들
+- 연말 정산 레포트 만들기 (굿즈들 이력)
+- 추억 하이라이트 만들기 등
